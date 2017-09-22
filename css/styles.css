@@ -108,7 +108,7 @@ body {
 	padding-bottom: 14px;
 }
 
-button {
+.btn, .btn-big {
 	background-color: transparent;
 	border-width: 2px;
 	border-color: #FF4136;
@@ -172,7 +172,7 @@ nav a:hover {
 	font-family: 'Bungee', sans-serif;
 }
 
-#nav button {
+#nav .btn {
 	border-color: #FF4136;
 	border-width: 2px;
 	border-radius: 5px;
@@ -184,12 +184,12 @@ nav a:hover {
 	text-transform: uppercase;
 }
 
-#nav button:hover {
+#nav .btn:hover {
 	background-color: #FF4136;
 	color: white;
 }
 
-#nav button a:hover {
+#nav .btn a:hover {
 	color: white;
 }
 
@@ -254,7 +254,7 @@ nav li a:hover {
 	color: white;
 }
 
-.projects button:hover{
+.projects a:hover{
 	background-color: #2A205B;
 	color: white;
 }
@@ -356,7 +356,7 @@ nav li a:hover {
 
 /* Social */
 
-.social button {
+.social .btn-big {
 	color: white;
 	border-color: white;
 	background-color: transparent;
@@ -365,7 +365,7 @@ nav li a:hover {
 	margin-top: 30px;
 }
 
-.social button:hover {
+.social .btn-big:hover {
 	background-color: white;
 	color: #45a8da;
 }
