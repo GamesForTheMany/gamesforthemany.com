@@ -267,19 +267,42 @@ nav li {
 	left: 30%;
 }
 
+.normal {
+	position: static;
+	height: 710px;
+}
+
+@media screen and (min-width: 773px) {
+	.normal {
+		position: static;
+		height: 380px;
+	}
+}
+
 #corbyn-run {
 	height: 300px;
 }
 
+/* Team */
+
 .team {
 	background-color: white;
 	color: #FEC761;
+}
 
+.team h2 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.team-img {
+	padding: 20px;
 }
 
 .photo {
-	width: 200px;
-	clip: rect(0px,150px,150px,0px);
+	width: 100%;
+	border-radius: 5px;
 }
 
 .twitter {
