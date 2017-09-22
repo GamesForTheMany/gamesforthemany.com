@@ -271,6 +271,17 @@ nav li {
 	height: 300px;
 }
 
-.team img {
-	width: 150px;
+.team {
+	background-color: white;
+	color: #FEC761;
+
+}
+
+.photo {
+	width: 200px;
+	clip: rect(0px,150px,150px,0px);
+}
+
+.twitter {
+	width: 30px;
 }
