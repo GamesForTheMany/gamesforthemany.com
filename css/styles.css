@@ -98,7 +98,7 @@ body {
 
 #main-text p {
 	padding-top: 14px;
-	padding-bottom: 50px;
+	padding-bottom: 14px;
 }
 
 button {
@@ -217,22 +217,60 @@ nav li {
 /* Projects */
 
 .projects {
-	background-color: #F3C761;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	background-color: white;
+	color: #2A205B;
+	position: absolute;
 }
 
 .projects button {
-	color: white;
-	border-color: white;
+	color: #2A205B;
+	border-color: #2A205B;
 	margin: auto;
 }
 
 .projects button:hover{
-	background-color: white;
-	color: #F3C761;
+	background-color: #2A205B;
+	color: white;
 }
 
 .button {
 	margin: auto;
+	padding-top: 100px;
+}
+
+@media screen and (min-width: 773px) {
+	.button {
+		padding-left: 100px;
+		padding-top: 0px;
+	}
+}
+
+@media screen and (min-width: 994px) {
+	.button {
+		padding-top: 0px;
+		padding-left: 0px;
+	}
+}
+
+#purple-bar {
+	background-color: #2A205B;
+	width: 500px;
+	height: 380px;
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	position: relative;
+}
+
+.relative {
+	position: absolute;
+	top: 50px;
+	left: 30%;
+}
+
+#corbyn-run {
+	height: 300px;
+}
+
+.team img {
+	width: 150px;
 }
