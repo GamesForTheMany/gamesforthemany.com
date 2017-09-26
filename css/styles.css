@@ -246,6 +246,10 @@ nav li a:hover {
 	margin: auto;
 }
 
+#corbyn-button:hover {
+	color: white;
+}
+
 .projects a {
 	color: #2A205B;
 }
