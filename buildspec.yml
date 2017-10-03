@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws s3 sync . "s3://gamesforthemany.com" --exclude="*.git/*" --exclude="buildspec.yml"
+      - aws s3 sync . "s3://gamesforthemany.org" --exclude="*.git/*" --exclude="buildspec.yml"
 
 artifacts:
   files:
