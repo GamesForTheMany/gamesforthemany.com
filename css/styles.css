@@ -357,6 +357,10 @@ nav li a:hover {
 	color: #FF4136;
 }
 
+#miniProjects h2 {
+	text-align: left;
+}
+
 /* Contact */
 
 .contact {
