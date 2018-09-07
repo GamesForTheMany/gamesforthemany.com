@@ -209,6 +209,24 @@ nav li a:hover {
 }
 
 /* A Very British Coup*/
+div#avbc-banner {
+	text-align: center;
+	background: #45a8da;
+	color: white;
+}
+
+div#avbc-banner p {
+	margin-bottom: 0;
+	padding:10px;
+	font-weight:bold;
+}
+
+div#avbc-banner .btn {
+	border-color: white;
+	color: white;
+	font-weight: bold;
+}
+
 div#avbc {
 	padding: 30px 0;
 	background-color: #fff;
