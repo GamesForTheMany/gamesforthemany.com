@@ -208,6 +208,74 @@ nav li a:hover {
 	color: #FF4136;
 }
 
+/* A Very British Coup*/
+div#avbc {
+	padding: 30px 0;
+	background-color: #FF4136;
+	color: #ffffff;
+}
+
+div#avbc .hidden {
+	display:none;
+}
+
+div#avbc p {
+    margin-bottom: 2rem;
+}
+
+div#avbc h3 {
+	font-size: 1.8rem;
+}
+
+#avbc-title {
+	font-size: 3rem;
+}
+
+div#avbc p.avbc-lead {
+	font-size: 1.25rem;
+}
+
+
+div#avbc p.eventdate {
+	font-size: 1.5rem;
+	padding-right: 30px;
+	margin-bottom: 1rem;
+}
+
+div#avbc p.eventdate .date {
+	font-weight: bold;
+}
+
+
+@media screen and (min-width: 800px) {
+	#avbc-title {
+		font-size: 5.5rem;
+    	line-height: 1.2;
+    	width: 600px;
+	}
+	div#avbc h3 {
+		font-size: 2.5rem;
+	}
+	div#avbc .right-column p {
+		text-align: right;
+	}
+}
+
+div#avbc .btn-big {
+    border-color: #ffffff;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: transparent;
+	color: #ffffff;
+	margin-top: 0px;
+    margin-bottom: 2rem;
+    font-family: 'Bungee', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
 /* Media */
 
 .media {
