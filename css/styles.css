@@ -51,7 +51,7 @@ a:hover {
 	font-weight: normal;
 	line-height: 1.25;
 	text-align: center;
-	#FF4136-space: nowrap;
+	white-space: nowrap;
 	vertical-align: middle;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -211,8 +211,8 @@ nav li a:hover {
 /* A Very British Coup*/
 div#avbc {
 	padding: 30px 0;
-	background-color: #FF4136;
-	color: #ffffff;
+	background-color: #fff;
+	color: #333;
 }
 
 div#avbc .hidden {
@@ -229,6 +229,7 @@ div#avbc h3 {
 
 #avbc-title {
 	font-size: 3rem;
+	color: #FF4136;
 }
 
 div#avbc p.avbc-lead {
@@ -262,11 +263,11 @@ div#avbc p.eventdate .date {
 }
 
 div#avbc .btn-big {
-    border-color: #ffffff;
+    border-color: #FF4136;
     border-width: 3px;
     border-radius: 5px;
     background-color: transparent;
-	color: #ffffff;
+	color: #FF4136;
 	margin-top: 0px;
     margin-bottom: 2rem;
     font-family: 'Bungee', sans-serif;
